@@ -8,17 +8,24 @@ import { Reviewlist } from '../Helper/Reviewlist'
 import Services from '../Component/Services'
 import Contact from '../Component/Contact'
 import Footer from '../Component/Footer'
+import { Sliders } from '../Helper/Sliders'
+import Tranding from '../Component/Tranding'
+import CardSlider from '../Component/CardSlider'
 
 const Home = () => {
   return (
    <>
    <Hero/>
+   <Tranding slides={Sliders}/>
+   {/* <CardSlider slides={Sliders}/> */}
+   
    <Product Shoelist={Shoelist}/>
     <About/>
     <Review Reviewlist={Reviewlist}/>
     <Services/>
     <Contact/>
     <Footer/>
+   
    </>
   )
 }

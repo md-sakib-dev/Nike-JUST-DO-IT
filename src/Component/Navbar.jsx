@@ -21,7 +21,7 @@ const Navbar = () => {
     return (
       
 
-    <div className='bg-white w-full mx-auto  md:h-24 md:border-2 flex  justify-between items-center sticky top-0 '>
+    <div className='bg-white w-full mx-auto  md:h-24 md:border-2 flex  justify-between items-center fixed top-0 Z-10'>
          
       
          

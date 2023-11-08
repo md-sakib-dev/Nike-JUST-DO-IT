@@ -41,7 +41,7 @@ const Hero = () => {
 
     </div>
     <div>
-            <button  className='bg-[#c72092] text-white w-[150px] mx-auto rounded-lg my-6 font-medium py-1 '>SHOP NOW</button>
+            <button  className='bg-[#c72092] md:ml-[500px] text-white w-[150px] mx-auto rounded-lg my-6 font-medium py-1 '>SHOP NOW</button>
         </div>
     </div>
   )

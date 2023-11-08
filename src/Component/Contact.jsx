@@ -47,58 +47,58 @@ const Contact = () => {
             you. Thank you for considering us as your trusted partner. Let's
             connect and explore the possibilities together
           </p>
-          <div className="flex gap-4 text-center mt-6 ">
+          <div className="flex gap-4 text-center mt-6 " >
             <MdEmail size={20} />
             <BsTwitter size={20} />
           </div>
           <h1 className="mt-7 font-bold">Write me a Message</h1>
 
-          <div class="w-full max-w-md mx-auto">
-            <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-              <div class="mb-4">
+          <div className="w-full max-w-md mx-auto">
+            <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+              <div className="mb-4">
                 <label
-                  class="block text-gray-700 text-sm font-bold mb-2"
-                  for="name"
+                  className="block text-gray-700 text-sm font-bold mb-2"
+                  
                 >
                   Name
                 </label>
                 <input
-                  class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   id="name"
                   type="text"
                   placeholder="Your Name"
                 />
               </div>
-              <div class="mb-4">
+              <div className="mb-4">
                 <label
-                  class="block text-gray-700 text-sm font-bold mb-2"
-                  for="email"
+                  className="block text-gray-700 text-sm font-bold mb-2"
+                
                 >
                   Email
                 </label>
                 <input
-                  class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   id="email"
                   type="email"
                   placeholder="youremail@example.com"
                 />
               </div>
-              <div class="mb-6">
+              <div className="mb-6">
                 <label
-                  class="block text-gray-700 text-sm font-bold mb-2"
-                  for="message"
+                  className="block text-gray-700 text-sm font-bold mb-2"
+                 
                 >
                   Message
                 </label>
                 <textarea
-                  class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   id="message"
                   placeholder="Your Message"
                 ></textarea>
               </div>
-              <div class="flex items-center justify-between">
+              <div className="flex items-center justify-between">
                 <button
-                  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                   type="button"
                 >
                   Send
@@ -108,7 +108,7 @@ const Contact = () => {
           </div>
         </div>
         <div>
-            {/* Content above the section */}
+          
       
       <section className="py-8">
         <div className="container mx-auto">
@@ -116,7 +116,7 @@ const Contact = () => {
         </div>
       </section>
       
-      {/* Content below the section */}
+     
         </div>
       </div>
     </div>
